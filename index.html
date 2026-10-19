@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savio Shaju | Portfolio</title>
+    <meta name="description" content="Personal portfolio of Savio Shaju, Computer Science student and developer.">
+    <link rel="shortcut icon" href="assets/images/savio.jpg" type="image/jpeg">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Simple Navigation -->
+    <header class="site-header">
+        <div class="container nav-wrap">
+            <a href="index.html" class="nav-title">Savio Shaju</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#focus">Focus</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Hero / Intro -->
+        <section class="hero" id="about">
+            <div class="hero-profile">
+                <img src="assets/images/savio.jpg" alt="Savio Shaju" class="hero-avatar">
+                <div class="hero-bio">
+                    <h1>Savio Shaju</h1>
+                    <p class="hero-subtitle">Computer Science & Engineering Student</p>
+                    <p class="hero-text">
+                        Currently studying at Saintgits College of Engineering. I build web applications and work with machine learning models, with hands-on experience in React, Node.js, Python, and Flask.
+                    </p>
+                    <div class="social-links">
+                        <a href="https://github.com/savioshaju" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                        <a href="https://www.linkedin.com/in/savio-shaju-81058528a/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+                        <a href="https://www.instagram.com/_savio_shaju_?igsh=MTJmYnRza2M5eXIyMg==" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+                        <a href="mailto:savioshajum@gmail.com">savioshajum@gmail.com ↗</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience -->
+        <section class="page-section" id="experience">
+            <h2 class="section-title">Work & Internships</h2>
+            <p class="section-desc">My past internship and training experiences.</p>
+
+            <div class="experience-list">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div>
+                            <span class="experience-role">AI Virtual Intern</span> · 
+                            <span class="experience-company">Infosys Springboard</span>
+                        </div>
+                        <span class="experience-period">Sep 2025 - Nov 2025</span>
+                    </div>
+                    <p class="experience-desc">
+                        Implemented YOLOv8 models for Personal Protective Equipment (PPE) detection to enhance compliance monitoring.
+                    </p>
+                </div>
+
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div>
+                            <span class="experience-role">Software Developer Intern</span> · 
+                            <span class="experience-company">Fourve Dimension</span>
+                        </div>
+                        <span class="experience-period">Jul 2025 - Aug 2025</span>
+                    </div>
+                    <p class="experience-desc">
+                        Developed and optimized backend services using Flask and Jinja2, improving application response times.
+                    </p>
+                </div>
+
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div>
+                            <span class="experience-role">Industrial Training</span> · 
+                            <span class="experience-company">NEST Digital</span>
+                        </div>
+                        <span class="experience-period">Jun 2025 - Jul 2025</span>
+                    </div>
+                    <p class="experience-desc">
+                        Focused on cybersecurity fundamentals, conducting vulnerability assessments and securing API endpoints.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="page-section" id="projects">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-desc">Projects I've built in web development and machine learning.</p>
+
+            <!-- Filters -->
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="fullstack">Web / Full Stack</button>
+                <button class="filter-btn" data-filter="ai">AI / ML</button>
+                <button class="filter-btn" data-filter="group">Group</button>
+                <button class="filter-btn" data-filter="personal">Personal</button>
+            </div>
+
+            <!-- Project Cards Grid -->
+            <div class="projects-grid">
+                <!-- EduVerse AI -->
+                <div class="project-card" data-category="Full Stack" data-role="Frontend Architect" data-type="Group">
+                    <div class="project-card-top">
+                        <h3 class="project-name">EduVerse AI</h3>
+                        <span class="project-tag">Group</span>
+                    </div>
+                    <p class="project-role-text">Frontend Architect</p>
+                    <p class="project-description">
+                        Offline-first AI education platform. Ensures learning continuity in low-connectivity areas using PWA technologies.
+                    </p>
+                    <div class="project-stack">
+                        <span class="stack-item">React</span>
+                        <span class="stack-item">Vite</span>
+                        <span class="stack-item">Tailwind</span>
+                        <span class="stack-item">Redux</span>
+                        <span class="stack-item">Node</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://eduverse-a60j.onrender.com/" target="_blank" rel="noopener noreferrer">Live Demo ↗</a>
+                        <a href="https://github.com/rishikesh-babu/EduVerse.git" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                    </div>
+                </div>
+
+                <!-- PlanIt -->
+                <div class="project-card" data-category="Full Stack" data-role="System Integration" data-type="Group">
+                    <div class="project-card-top">
+                        <h3 class="project-name">PlanIt</h3>
+                        <span class="project-tag">Group</span>
+                    </div>
+                    <p class="project-role-text">System Integration</p>
+                    <p class="project-description">
+                        Automated event management system handling registration, attendance, and instant certificate generation.
+                    </p>
+                    <div class="project-stack">
+                        <span class="stack-item">React</span>
+                        <span class="stack-item">Express</span>
+                        <span class="stack-item">MySQL</span>
+                        <span class="stack-item">Node</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://planit-adir.onrender.com/" target="_blank" rel="noopener noreferrer">Live Demo ↗</a>
+                        <a href="https://github.com/rishikesh-babu/PlanIt.git" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                    </div>
+                </div>
+
+                <!-- Turf Booking -->
+                <div class="project-card" data-category="Full Stack" data-role="Full Stack" data-type="Personal">
+                    <div class="project-card-top">
+                        <h3 class="project-name">Turf Booking</h3>
+                        <span class="project-tag">Personal</span>
+                    </div>
+                    <p class="project-role-text">Full Stack</p>
+                    <p class="project-description">
+                        A complete sports venue booking solution with user authentication, slot management, and admin controls.
+                    </p>
+                    <div class="project-stack">
+                        <span class="stack-item">React</span>
+                        <span class="stack-item">Redux</span>
+                        <span class="stack-item">Node</span>
+                        <span class="stack-item">MongoDB</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://turf-booking-website-vmb4.vercel.app/" target="_blank" rel="noopener noreferrer">Live Demo ↗</a>
+                        <a href="https://github.com/savioshaju/Turf-Booking-Website.git" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                    </div>
+                </div>
+
+                <!-- Task Manager -->
+                <div class="project-card" data-category="Full Stack" data-role="Full Stack" data-type="Personal">
+                    <div class="project-card-top">
+                        <h3 class="project-name">Task Manager</h3>
+                        <span class="project-tag">Personal</span>
+                    </div>
+                    <p class="project-role-text">Full Stack</p>
+                    <p class="project-description">
+                        Secure task management API and interface with JWT authentication and CRUD capabilities.
+                    </p>
+                    <div class="project-stack">
+                        <span class="stack-item">React</span>
+                        <span class="stack-item">Node</span>
+                        <span class="stack-item">MongoDB</span>
+                        <span class="stack-item">JWT</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/savioshaju/TASK-MANAGER.git" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                    </div>
+                </div>
+
+                <!-- Blogivea -->
+                <div class="project-card" data-category="Frontend" data-role="Frontend" data-type="Personal">
+                    <div class="project-card-top">
+                        <h3 class="project-name">Blogivea</h3>
+                        <span class="project-tag">Personal</span>
+                    </div>
+                    <p class="project-role-text">Frontend</p>
+                    <p class="project-description">
+                        Clean blogging platform with dynamic content rendering and responsive design.
+                    </p>
+                    <div class="project-stack">
+                        <span class="stack-item">HTML/JS</span>
+                        <span class="stack-item">Node</span>
+                        <span class="stack-item">Bootstrap</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://savioshaju.github.io/Blogivea/" target="_blank" rel="noopener noreferrer">Live Demo ↗</a>
+                        <a href="https://github.com/savioshaju/Blogivea.git" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                    </div>
+                </div>
+
+                <!-- Food Order -->
+                <div class="project-card" data-category="Frontend" data-role="Frontend" data-type="Personal">
+                    <div class="project-card-top">
+                        <h3 class="project-name">Food Order</h3>
+                        <span class="project-tag">Frontend</span>
+                    </div>
+                    <p class="project-role-text">Frontend</p>
+                    <p class="project-description">
+                        Responsive commerce interface with cart logic and clean layout.
+                    </p>
+                    <div class="project-stack">
+                        <span class="stack-item">React</span>
+                        <span class="stack-item">Tailwind</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://food-order-website-swart.vercel.app/" target="_blank" rel="noopener noreferrer">Live Demo ↗</a>
+                        <a href="https://github.com/savioshaju/Food_order_website.git" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                    </div>
+                </div>
+
+                <!-- Gallery App -->
+                <div class="project-card" data-category="Full Stack" data-role="Full Stack" data-type="Personal">
+                    <div class="project-card-top">
+                        <h3 class="project-name">Gallery App</h3>
+                        <span class="project-tag">Full Stack</span>
+                    </div>
+                    <p class="project-role-text">Full Stack</p>
+                    <p class="project-description">
+                        Persistent media storage solution with MongoDB backing and upload handling.
+                    </p>
+                    <div class="project-stack">
+                        <span class="stack-item">React</span>
+                        <span class="stack-item">Vite</span>
+                        <span class="stack-item">Express</span>
+                        <span class="stack-item">MongoDB</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/savioshaju/Gallery-Fourve-Internship.git" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                    </div>
+                </div>
+
+                <!-- Safety Eye -->
+                <div class="project-card" data-category="AI" data-role="AI / ML" data-type="AI">
+                    <div class="project-card-top">
+                        <h3 class="project-name">Safety Eye</h3>
+                        <span class="project-tag">AI</span>
+                    </div>
+                    <p class="project-role-text">AI / ML</p>
+                    <p class="project-description">
+                        Computer vision system using YOLOv8 to detect PPE compliance in real-time video feeds.
+                    </p>
+                    <div class="project-stack">
+                        <span class="stack-item">Python</span>
+                        <span class="stack-item">YOLOv8</span>
+                        <span class="stack-item">OpenCV</span>
+                        <span class="stack-item">Flask</span>
+                    </div>
+                    <div class="project-links">
+                        <span style="color: var(--text-muted); font-size: 0.85rem;">Internal ML Model</span>
+                    </div>
+                </div>
+
+                <!-- Accent ID -->
+                <div class="project-card" data-category="AI" data-role="Audio ML" data-type="AI">
+                    <div class="project-card-top">
+                        <h3 class="project-name">Accent ID</h3>
+                        <span class="project-tag">AI</span>
+                    </div>
+                    <p class="project-role-text">Audio ML</p>
+                    <p class="project-description">
+                        Native language identification via audio embeddings (HuBERT/MFCC).
+                    </p>
+                    <div class="project-stack">
+                        <span class="stack-item">Python</span>
+                        <span class="stack-item">PyTorch</span>
+                        <span class="stack-item">HuBERT</span>
+                        <span class="stack-item">Flask</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/savioshaju/IIIT-H-.git" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Areas of Focus / Interests -->
+        <section class="page-section" id="focus">
+            <h2 class="section-title">Areas of Focus</h2>
+            <p class="section-desc">Where I spend most of my time innovating.</p>
+
+            <div class="focus-grid">
+                <div class="focus-card">
+                    <h3>Full-Stack Web</h3>
+                    <p>Building scalable web ecosystems with modern frameworks like React, Node.js, and cloud/serverless architectures.</p>
+                </div>
+                <div class="focus-card">
+                    <h3>AI & Machine Learning</h3>
+                    <p>Developing intelligent agents and computer vision systems using PyTorch and OpenCV.</p>
+                </div>
+                <div class="focus-card">
+                    <h3>UI/UX Engineering</h3>
+                    <p>Designing fluid, accessible, and aesthetic user interfaces that delight users.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="page-section" id="contact">
+            <h2 class="section-title">Contact</h2>
+            <p class="section-desc">Get in touch with me for projects or questions.</p>
+
+            <div class="contact-layout">
+                <div class="contact-info">
+                    <p>Feel free to reach out via email or message me through my social profiles:</p>
+                    <ul>
+                        <li><strong>Email:</strong> <a href="mailto:savioshaju01@gmail.com">savioshaju01@gmail.com</a></li>
+                        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/savio-shaju-81058528a/" target="_blank" rel="noopener noreferrer">linkedin.com/in/savio-shaju</a></li>
+                        <li><strong>GitHub:</strong> <a href="https://github.com/savioshaju" target="_blank" rel="noopener noreferrer">github.com/savioshaju</a></li>
+                        <li><strong>Instagram:</strong> <a href="https://www.instagram.com/_savio_shaju_?igsh=MTJmYnRza2M5eXIyMg==" target="_blank" rel="noopener noreferrer">@_savio_shaju_</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <div id="form-alert" class="form-alert">
+                        Thank you! Your message has been sent.
+                    </div>
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Your Message..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Simple Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; <span id="year">2026</span> Savio Shaju. Built with HTML, CSS & JavaScript.</p>
+        </div>
+    </footer>
+
+    <!-- Clean, simple JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
